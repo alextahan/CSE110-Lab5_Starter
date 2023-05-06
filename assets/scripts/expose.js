@@ -2,7 +2,7 @@
 
 window.addEventListener('DOMContentLoaded', init);
 
-const jsConfetti = new JSConfetti()
+const jsConfetti = new JSConfetti();
 
 function init() {
   let hornSelect = document.getElementById("horn-select");
