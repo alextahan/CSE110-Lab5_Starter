@@ -12,11 +12,10 @@ function init() {
   let voices = [];
 
   //load voices
+  voices = synth.getVoices();
   setTimeout(loadVoices, 200);
   
   function loadVoices() {
-    voices = synth.getVoices();
-
     //populate dropdown
     for (let i = 0; i < voices.length; i++) {
       const option = document.createElement("option");
