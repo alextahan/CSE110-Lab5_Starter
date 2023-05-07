@@ -12,7 +12,7 @@ function init() {
   let voices = [];
 
   //load voices
-  setTimeout(loadVoices, 50);
+  setTimeout(loadVoices, 200);
   
   function loadVoices() {
     voices = synth.getVoices();
